@@ -48,7 +48,7 @@
                             <div class="col">
                                 <div class="mb-3">
                                     <label for="exampleFormControlInput1" class="form-label">Sell Price</label>
-                                    <h4>{{ $data->price }} mmk</h4>
+                                    <h4>{{ $data->price }} RWF</h4>
 
                                 </div>
                             </div>

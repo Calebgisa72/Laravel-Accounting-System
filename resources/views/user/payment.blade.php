@@ -98,7 +98,7 @@
                                         </div>
                                         <div class="col-75">
                                             <input type="hidden" name="totalAmount" value="{{ $total + 500}}">
-                                            <label for="total">{{ $total + 500}} MMK</label>
+                                            <label for="total">{{ $total + 500}} RWF</label>
                                           </div>
                                       </div>
                                       <div class="row">

@@ -18,5 +18,10 @@ class DatabaseSeeder extends Seeder
             'role' => 'superadmin',
             'provider' => 'simple'
         ]);
+
+        $this->call([
+            CategorySeeder::class,
+            ProductSeeder::class,
+        ]);
     }
 }

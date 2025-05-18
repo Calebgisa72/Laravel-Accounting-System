@@ -90,7 +90,7 @@
                                                     <p>{{ Str::words($item->description, 10, '...') }}</p>
 
                                                     <div class="d-flex flex-lg-wrap">
-                                                        <p class="text-white fs-5 fw-bold mb-2">{{ $item->price }} MMK</p>
+                                                        <p class="text-white fs-5 fw-bold mb-2">{{ $item->price }} RWF</p>
                                                         <form action="{{ route('addToCart') }}" method="POST">
                                                             @csrf
                                                             <input type="hidden" name="productID" value="{{ $item->id }}">

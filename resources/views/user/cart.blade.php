@@ -28,9 +28,9 @@
                       <tr class="text-white fw-bold">
                         <th scope="col">Products</th>
                         <th scope="col">Name</th>
-                        <th scope="col">Price(MMK)</th>
+                        <th scope="col">Price(RWF)</th>
                         <th scope="col">Quantity</th>
-                        <th scope="col">Total(MMK)</th>
+                        <th scope="col">Total(RWF)</th>
                         <th scope="col">Handle</th>
                       </tr>
                     </thead>
@@ -92,19 +92,19 @@
                             <h1 class="display-6 mb-4">Cart <span class="fw-normal">Total</span></h1>
                             <div class="d-flex justify-content-between mb-4">
                                 <h5 class="mb-0 me-4" >Subtotal:</h5>
-                                <p class="mb-0" id="subTotal">{{ $totalPrice }} MMK</p>
+                                <p class="mb-0" id="subTotal">{{ $totalPrice }} RWF</p>
                             </div>
                             <div class="d-flex justify-content-between">
                                 <h5 class="mb-0 me-4">Deli fees:</h5>
                                 <div class="">
-                                    <p class="mb-0">500 MMK</p>
+                                    <p class="mb-0">500 RWF</p>
                                 </div>
                             </div>
 
                         </div>
                         <div class="py-4 mb-4 border-top border-bottom d-flex justify-content-between">
                             <h5 class="mb-0 ps-4 me-4" >Total:</h5>
-                            <p class="mb-0 pe-4" id="finalFee">{{ $totalPrice + 500 }} MMK</p>
+                            <p class="mb-0 pe-4" id="finalFee">{{ $totalPrice + 500 }} RWF</p>
                         </div>
 
                     </div>
@@ -129,22 +129,22 @@
             $('.btn-plus').click(function(){
                 // console.log('btn plus clicked');
                 $parentNode = $(this).parents("tr");
-                $price = $parentNode.find("#price").text().replace("MMK","");
+                $price = $parentNode.find("#price").text().replace("RWF","");
                 $qty = $parentNode.find('#qty').val();
                 // console.log($price, $qty);
                 $totalPrice = $qty * $price;
-                $parentNode.find('#eachTotal').html( $totalPrice + 'MMK' );
+                $parentNode.find('#eachTotal').html( $totalPrice + 'RWF' );
                 finalCalculation();
 
             })
             //when minus button click
             $('.btn-minus').click(function(){
                 $parentNode = $(this).parents("tr");
-                $price = $parentNode.find("#price").text().replace("MMK","");
+                $price = $parentNode.find("#price").text().replace("RWF","");
                 $qty = $parentNode.find('#qty').val();
                 // console.log($price, $qty);
                 $totalPrice = $qty * $price;
-                $parentNode.find('#eachTotal').html( $totalPrice + 'MMK' );
+                $parentNode.find('#eachTotal').html( $totalPrice + 'RWF' );
                 finalCalculation();
 
             })
@@ -180,13 +180,13 @@
             $orderList =[]
             $orderCode = Math.floor(Math.random() * 10000000)//random value
             $userId = $(".userId").val() * 1;
-            // $totalPrice = $('#finalFee').text().replace("MMK","") * 1;
+            // $totalPrice = $('#finalFee').text().replace("RWF","") * 1;
 
 
             $(" #dataTable tbody tr ").each(function( item, row){
                     $productId = $(row).find('.productId').val();
                     $qty = $(row).find('#qty').val() * 1;
-                    $totalPrice = $(row).find('#eachTotal').text().replace("MMK", "") * 1;
+                    $totalPrice = $(row).find('#eachTotal').text().replace("RWF", "") * 1;
 
                     $orderList.push({
                         'user_id' :$userId,
@@ -213,12 +213,12 @@
         function finalCalculation(){
                 $totalPrice = 0;
                 $(" #dataTable tbody tr ").each(function( item, row){
-                    $totalPrice += Number( $(row).find("#eachTotal").text().replace("MMK",""));
+                    $totalPrice += Number( $(row).find("#eachTotal").text().replace("RWF",""));
                 })
 
             // console.log($totalPrice);
-            $("#subTotal").html( `${$totalPrice} MMK `)
-            $("#finalFee").html( `${$totalPrice+500} MMK`)
+            $("#subTotal").html( `${$totalPrice} RWF `)
+            $("#finalFee").html( `${$totalPrice+500} RWF`)
 
             }
         })

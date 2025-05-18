@@ -95,7 +95,7 @@
                             <p><strong>Phone:</strong> {{ $order[0]['phone'] }}</p>
                             <p><strong>Order Code:</strong> {{ $order[0]->order_code }}</p>
                             <p><strong>Order Date:</strong> {{ $order[0]->created_at->format('j-F-y') }}</p>
-                            <p><strong>Total Price:</strong> {{ $total + 500 }} MMK</p>
+                            <p><strong>Total Price:</strong> {{ $total + 500 }} RWF</p>
                             <small class="text-danger">(Includes Delivery Charges)</small>
                         </div>
                     </div>

@@ -2,15 +2,12 @@
 
 @section('content')
 <div class="container">
-
-    <!-- Outer Row -->
     <div class="row justify-content-center">
 
         <div class="col-xl-6 col-lg-12 col-md-9 mt-5">
 
             <div class="card o-hidden border-0 my-5 loginform">
                 <div class="card-body p-0">
-                    <!-- Nested Row within Card Body -->
                     <div class="row">
                         <div class="col-lg-10 offset-1">
                             <div class="p-5">
@@ -35,19 +32,6 @@
                                     <input type="submit" value="Login" class="btn btn-primary btn-user btn-block">
 
                                     <hr>
-                                   <div class="row">
-                                    <div class="col">
-                                        <a href="{{url('/auth/google/redirect')}}" class="btn btn-google btn-user btn-block">
-                                            <i class="fab fa-google fa-fw"></i> Login with Google
-                                        </a>
-
-                                    </div>
-                                    <div class="col">
-                                        <a href="{{url('/auth/github/redirect')}}" class="btn btn-github bg-dark text-white btn-user btn-block">
-                                            <i class="fa-brands fa-github me-2"></i> Login with Github
-                                        </a>
-                                    </div>
-                                   </div>
                                 </form>
                                 <hr>
                                 <div class="text-center ">

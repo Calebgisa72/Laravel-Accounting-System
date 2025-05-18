@@ -134,7 +134,7 @@
                                                         <div class="d-flex justify-content-center flex-lg-wrap">
                                                             <p class="text-white fs-5 fw-bold mb-2"><i
                                                                     class="fa-solid fa-money-bill"></i> {{ $item->price }}
-                                                                MMK</p>
+                                                                RWF</p>
                                                                 <form action="{{ route('addToCart') }}" method="POST">
                                                                     @csrf
                                                                     <input type="hidden" name="productID" value="{{ $item->id }}">
@@ -186,7 +186,7 @@
                                 </div>
                                 <div class="col-6">
                                     <h4>{{ $item->product_name }}</h4>
-                                    <h4 class="mb-3">{{ $item->price }} MMK</h4>
+                                    <h4 class="mb-3">{{ $item->price }} RWF</h4>
 
                                 </div>
                             </div>

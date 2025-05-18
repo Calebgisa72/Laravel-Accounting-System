@@ -31,7 +31,7 @@
                             <div class="col-lg-6">
                                 <h4 class="text-white fw-bold mb-3">{{ $product->name }}</h4>
                                 <p class="mb-3">Category: {{ $product->category_name }}</p>
-                                <h5 class="text-white fw-bold mb-3">{{ $product->price }} MMK</h5>
+                                <h5 class="text-white fw-bold mb-3">{{ $product->price }} RWF</h5>
                                 <div class="d-flex mb-4">
                                     @php
                                         $stars = number_format($productRating);
@@ -258,7 +258,7 @@
                                         style="top: 10px; right: 10px;">{{ $item->category_name }}</div>
                                     <div class="p-4 pb-0 rounded-bottom">
                                         <h4 class="text-white">{{ $item->name }}</h4>
-                                        <p class="text-white fs-5 fw-bold">{{ $item->price }} MMK</p>
+                                        <p class="text-white fs-5 fw-bold">{{ $item->price }} RWF</p>
                                         <p>{{ Str::words($item->description, 10, '...') }}</p>
                                         <div class="d-flex justify-content-between flex-lg-wrap">
 
