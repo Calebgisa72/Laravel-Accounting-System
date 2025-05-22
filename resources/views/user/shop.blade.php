@@ -38,16 +38,16 @@
                                             <h4 class="text-white">Categories</h4>
                                             <ul class="text-white list-unstyled products-categorie">
                                                 <li>
-                                                    <div class="d-flex justify-content-between products-name ">
-                                                        <a href="{{ route('shopList') }}"><i class="fa-solid fa-clover"></i>
-                                                            All Categories</a>
+                                                    <div class="d-flex justify-content-between products-name">
+                                                        <a class="flex" href="{{ route('shopList') }}"><i class="fa-solid fa-clover"></i>
+                                                            <div class="text-white">All Categories</div>
+                                                        </a>
                                                     </div>
                                                 </li>
                                                 @foreach ($categories as $item)
                                                     <li>
                                                         <div class="d-flex justify-content-between products-name">
-                                                            <a href="{{ route('shopList', $item->id) }}"><i class="fa-solid fa-clover"></i> {{ $item->name }}</a>
-                                                            {{-- <span>(3)</span> --}}
+                                                            <a class="flex" href="{{ route('shopList', $item->id) }}"><i class="fa-solid fa-clover"></i> <div class="text-white">{{ $item->name }}</div></a>
                                                         </div>
                                                     </li>
                                                 @endforeach

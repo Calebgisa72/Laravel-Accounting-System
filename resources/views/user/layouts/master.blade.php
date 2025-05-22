@@ -45,36 +45,10 @@
 
         <!-- Navbar start -->
         <div class="container-fluid fixed-top">
-            <div class="container topbar d-none d-lg-block" style="background-color: #191970">
-                <div class="d-flex justify-content-between">
-                <div class="top-info ps-2">
-                    <small class="me-3"
-                    ><i class="fas fa-map-marker-alt me-2 text-secondary"></i>
-                    <a href="#" class="text-white">123 Street, New York</a></small
-                    >
-                    <small class="me-3"
-                    ><i class="fas fa-envelope me-2 text-secondary"></i
-                    ><a href="#" class="text-white">Email@Example.com</a></small
-                    >
-                </div>
-                <div class="top-link pe-2">
-                    <a href="#" class="text-white"
-                    ><small class="text-white mx-2">Privacy Policy</small>/</a
-                    >
-                    <a href="#" class="text-white"
-                    ><small class="text-white mx-2">Terms of Use</small>/</a
-                    >
-                    <a href="#" class="text-white"
-                    ><small class="text-white ms-2">Sales and Refunds</small></a
-                    >
-                </div>
-                </div>
-            </div>
-
             <div class="container px-0">
                 <nav class="navbar navbar-light bg-white navbar-expand-xl">
                            <a href="index.html" class="navbar-brand"
-                                ><h1 class="text-dark display-6">FLORAL</h1></a>
+                                ><h1 class="text-dark display-6">MCACCOUNTING</h1></a>
                             <button class="navbar-toggler py-1 px-3 border-1" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                                 <span class="fa fa-bars"></span>
@@ -135,23 +109,8 @@
                 <div class="row g-4">
                     <div class="col-lg-3">
                         <a href="#">
-                            <h1 class="text-white mb-0">Number 1 Florist</h1>
-                            <p class="text-secondary mb-0">since 1995</p>
+                            <h1 class="text-white mb-0">MCACCOUNTING</h1>
                         </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="position-relative mx-auto">
-                            <input class="form-control border-0 w-100 py-3 px-4 rounded-pill" type="number" placeholder="Your Email">
-                            <button type="submit" class="btn btn-primary border-0 border-secondary py-3 px-4 position-absolute rounded-pill text-white" style="top: 0; right: 0;">Subscribe Now</button>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="d-flex justify-content-end pt-3">
-                            <a class="btn  btn-outline-secondary me-2 btn-md-square rounded-circle" href="https://www.tiktok.com/@sourcecode"><i class="fab fa-tiktok"></i></a>
-                            <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="https://www.facebook.com/joincoder404"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="https://www.youtube.com/@joincoder"><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-secondary btn-md-square rounded-circle" href="https://t.me/reansourcecode"><i class="fab fa-telegram"></i></a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -189,10 +148,9 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-item">
                         <h4 class="text-light mb-3">Contact</h4>
-                        <p>Address: 1123 Pyay Rd, Yangon</p>
-                        <p>Email: florisygn@gmail.com</p>
-                        <p>Phone: +0124567 8910</p>
-                        <p>Payment Accepted</p>
+                        <p>Address: Kigali, Kimironko</p>
+                        <p>Email: gisacaleb@gmail.com</p>
+                        <p>Phone: +250 780288454</p>
                         <img src="img/payment.png" class="img-fluid" alt="">
                     </div>
                 </div>
@@ -200,21 +158,6 @@
         </div>
     </div>
     <!-- Footer End -->
-
-    <!-- Copyright Start -->
-    <div class="container-fluid copyright py-4" style="background-color: rgb(9, 9, 71);">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>thefloral.com</a>, All right reserved.</span>
-                </div>
-                <div class="col-md-6 my-auto text-center text-md-end text-white">
-                    Designed By...... <a class="border-bottom" href=""></a> Distributed By.....<a class="border-bottom" href=""></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Copyright End -->
 
     <!-- JavaScript Libraries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

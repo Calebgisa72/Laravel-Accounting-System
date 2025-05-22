@@ -33,12 +33,7 @@
             style="min-height: 100vh; padding-top: 10px; background-color:darkslategray">
 
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
-                <div class="sidebar-brand-icon">
-                    <img alt="Logo" class="rounded-circle logo__image" width="50" height="50"
-                        src="{{ asset('adminProfile/laravel.png') }}">
-                </div>
                 <span class="logo__text text-white text-lg ml-2"> MCACCOUNTING </span>
-
             </a>
             <hr class="sidebar-divider">
             <li class="nav-item">
