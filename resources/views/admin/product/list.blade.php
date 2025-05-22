@@ -43,7 +43,7 @@
                                     <td >
                                         <img class="rounded-circle" style="width: 64px; height: 64px;" src="{{ asset('productImages/' . $item->image) }}" alt="">
                                     </td>
-                                    <td>{{ $item->price }} mmk</td>
+                                    <td>{{ $item->price }} RWF</td>
                                     <td>{{ $item->count }}</td>
                                     <td style="width: 200px;">
                                         <a href="{{ route('productDetails', $item->id) }}"><i class="fa-solid fa-eye btn btn-primary"></i></a>
