@@ -44,7 +44,7 @@
 
 
         <!-- Navbar start -->
-        <div class="container-fluid fixed-top">
+        <div class="fixed-top">
             <div class="container px-0">
                 <nav class="navbar navbar-light bg-white navbar-expand-xl">
                            <a href="index.html" class="navbar-brand"
@@ -87,7 +87,7 @@
                                                 @else
                                                     {{auth()->user()->nickname}}
                                                 @endif
-                                            </span>
+                                        </span>
                                         </a>
                                         <ul class="dropdown-menu dropdown-menu-end shadow-sm rounded-3">
                                             <li><a class="dropdown-item" href="{{route('userProfileDetails')}}">Profile</a></li>
@@ -103,7 +103,7 @@
         @yield('content')
 
     <!-- Footer Start -->
-    <div class="container-fluid text-white-50 footer pt-5 mt-5" style="background-color:rgb(9, 9, 71);">
+    <div class="container-fluid text-white-50 footer pt-5 mt-5" style="background-color:rgb(17, 44, 44);">
         <div class="container py-5">
             <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(226, 175, 24, 0.5) ;">
                 <div class="row g-4">

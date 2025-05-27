@@ -14,7 +14,7 @@
     <!-- Shop Start-->
     <div class="container-fluid products">
         <div class="container py-3">
-            <h1 class="mb-3 text-white">Choose your flowers</h1>
+            <h1 class="mb-3 text-white">Purchase a Product</h1>
             <div class="row g-4">
                 <div class="col-lg-12">
                     <div class="row g-4">

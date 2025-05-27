@@ -118,7 +118,7 @@
                                     @foreach ($products as $item)
                                         @if ($count <= 4)
                                             <div class="col-md-6 col-lg-4 col-xl-3">
-                                                <div class="rounded position-relative products-item" style="background: linear-gradient(135deg, #ffd700, #191970);">
+                                                <div class="rounded position-relative products-item" style="background: linear-gradient(135deg, #ffd700, darkslategray);">
                                                     <div class="products-img">
                                                         <a href="{{ route('shopDetails', $item->id) }}">
                                                             <img style="height:250px"
@@ -210,28 +210,28 @@
             <div class="bg-light p-5 rounded">
                 <div class="row g-4 justify-content-center">
                     <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="counter rounded p-5" style="background: linear-gradient(135deg, #ffd700, #191970);">
+                        <div class="counter rounded p-5" style="background: linear-gradient(135deg, #ffd700, darkslategray);">
                             <i class="fa fa-users text-white"></i>
                             <h4 class="text-white">Customers</h4>
                             <h1 class="text-white">{{ $customerCount }}</h1>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="counter rounded p-5" style="background: linear-gradient(135deg, #ffd700, #191970);">
+                        <div class="counter rounded p-5" style="background: linear-gradient(135deg, #ffd700, darkslategray);">
                             <i class="fa fa-users text-white"></i>
                             <h4 class="text-white">quality of service</h4>
                             <h1 class="text-white">99%</h1>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="counter rounded p-5" style="background: linear-gradient(135deg, #ffd700, #191970);">
+                        <div class="counter rounded p-5" style="background: linear-gradient(135deg, #ffd700, darkslategray);">
                             <i class="fa fa-users text-white"></i>
                             <h4 class="text-white">quality certificates</h4>
                             <h1 class="text-white">33</h1>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="counter rounded p-5" style="background: linear-gradient(135deg, #ffd700, #191970);">
+                        <div class="counter rounded p-5" style="background: linear-gradient(135deg, #ffd700, darkslategray);">
                             <i class="fa fa-users text-white"></i>
                             <h4 class="text-white">Available Products</h4>
                             <h1 class="text-white">{{ count($products) }}</h1>
